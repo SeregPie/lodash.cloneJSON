@@ -1,6 +1,6 @@
 {
   "name": "lodash.clonejson",
-  "version": "17.7.22",
+  "version": "17.7.23",
   "description": "Converts a JavaScript value to a JSON string and then parses it back to a JavaScript value.",
   "main": "lodash.cloneJSON.js",
   "repository": {
