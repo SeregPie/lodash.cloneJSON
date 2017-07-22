@@ -1,0 +1,19 @@
+{
+  "name": "lodash.clonejson",
+  "version": "17.7.22",
+  "description": "Converts a JavaScript value to a JSON string and then parses it back to a JavaScript value.",
+  "main": "lodash.cloneJSON.js",
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/SeregPie/lodash.cloneJSON.git"
+  },
+  "author": "Sergej Sintschilin",
+  "license": "MIT",
+  "bugs": {
+	"url": "https://github.com/SeregPie/lodash.cloneJSON/issues"
+  },
+  "homepage": "https://github.com/SeregPie/lodash.cloneJSON#readme",
+  "dependencies": {
+	"lodash": "latest"
+  }
+}
