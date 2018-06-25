@@ -1,13 +1,1 @@
-(function(_) {
-
-	_.mixin({cloneJSON: function(value) {
-		return JSON.parse(JSON.stringify(value));
-	}});
-
-})((function() {
-	if (typeof module !== 'undefined' && typeof exports !== 'undefined' && this === exports) {
-		return require('lodash');
-	} else {
-		return _;
-	}
-}).call(this));
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(require("lodash")):"function"==typeof define&&define.amd?define(["lodash"],n):n(e._)}(this,function(e){"use strict";(e=e&&e.hasOwnProperty("default")?e.default:e).mixin({cloneJSON:function(e){return JSON.parse(JSON.stringify(e))}})});

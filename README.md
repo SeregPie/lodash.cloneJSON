@@ -16,30 +16,31 @@ Returns the cloned value.
 
 ## setup
 
-Install the [package](https://www.npmjs.com/package/lodash.clonejson) via npm.
+### npm
 
-```sh
-
+```shell
 npm install lodash.clonejson
-
 ```
 
-Import the module into your Node.js project.
+### ES module
+
+```javascript
+import _ from 'lodash';
+import 'lodash.clonejson';
+```
+
+### Node
 
 ```javascript
 const _ = require('lodash');
 require('lodash.clonejson');
 ```
 
----
-
-Include the code in your page via a CDN.
+### browser
 
 ```html
-
 <script src="https://unpkg.com/lodash"></script>
 <script src="https://unpkg.com/lodash.clonejson"></script>
-
 ```
 
 ## usage
