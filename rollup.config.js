@@ -1,5 +1,5 @@
+import {terser} from 'rollup-plugin-terser';
 import buble from 'rollup-plugin-buble';
-import {uglify} from 'rollup-plugin-uglify';
 
 import {main} from './package.json';
 
@@ -17,6 +17,6 @@ export default {
 	},
 	plugins: [
 		buble(),
-		uglify(),
+		terser(),
 	],
 };

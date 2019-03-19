@@ -10,16 +10,12 @@ Converts a JavaScript value to a JSON string and then parses it back to a JavaSc
 
 Returns the cloned value.
 
-## dependencies
-
-- [lodash](https://github.com/lodash/lodash)
-
 ## setup
 
 ### npm
 
 ```shell
-npm install lodash.clonejson
+npm i lodash.clonejson
 ```
 
 ### ES module
@@ -47,6 +43,6 @@ require('lodash.clonejson');
 
 ```javascript
 let array = [{a: 11}, {b: 22}];
-let arrayCopy = _.cloneJSON(array);
-console.log(array[1] === arrayCopy[1]); // => false
+let clonedArray = _.cloneJSON(array);
+console.log(array[1] === clonedArray[1]); // => false
 ```
